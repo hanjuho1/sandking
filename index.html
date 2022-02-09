@@ -97,12 +97,16 @@
 	 <div class="bar"></div>
 	 <div id="menu_box1">
 	 <ul id="main_menu">
-		 <li class="ma1"><a href=""><img src="images/menu1-2.png" alt=""><br>샌드위치</a></li>
-		 <div class="sa1"></div>
-		 <li><a href=""><img src="images/menu2-3.png" alt=""><br>샐러드</a></li>
-		 <div class="sa2"></div>
-		 <li><a href=""><img src="images/menu3-4.png" alt=""><br>사이드</a></li>
-		 <li><a href=""><img src="images/menu4-5.png" alt=""><br>음료</a></li>
+		 <li class="ma1"><a href="">
+			<div class="sa1"><p class="sb"><img src="images/menu1-2.png" alt=""></p></div><br>샌드위치</a></li>
+		 
+		 <li class="ma2"><a href="">
+			<div class="sa1"><p class="sb"><img src="images/menu2-3.png" alt=""></p></div><br>샐러드</a></li>
+
+		 <li class="ma3"><a href="">
+			<div class="sa1"><p class="sb"><img src="images/menu3-4.png" alt=""></p></div><br>사이드</a></li>
+		 <li class="ma4"><a href="">
+			<div class="sa1"><p class="sb"><img src="images/menu4-5.png" alt=""></p></div><br>음료</a></li>
 	 </ul>
 	</div>
 	
@@ -111,10 +115,12 @@
 	<p class="more_link"><a href="">more</a></p>
 </div><!--menu e-->
 <div id="bannar2">
+	<div id="bannar_box">
 	<a href=""><div class="mobile_box1"></div></a>
 	<a href=""><p class="mp1">앱으로 주문</p></a>
 	<a href=""><div class="mobile_box2"></div></a>
 	<a href=""><p class="mp2">멤버쉽 발급</p></a>
+</div>
 </div>
 <div id="event_boxwrap"><!--event s-->
 	<div id="event_box">
@@ -135,11 +141,9 @@
 	<div id="store">
 		<p class="title">STORE</p>
 		<div class="bar"></div>
-		<div id="store_box2">
-			<a href="#"><h2><img src="images/navi_small.png" alt=""></h2></a>
-		</div>
-		
-		<div class="store_navi">
+
+		<div id="store_box_wrap">
+			<div id="store_box1">
 		<p class="sp1">매장찾기</p>
 		<p class="sp2">가까운 매장을 검색해보세요!</p>
 		<img class="navi" src="images/navi.png" alt="#">
@@ -148,16 +152,16 @@
 		<label for=""></label>
 		<a href="#"><img class="button" src="images/search.png" alt="#"></a>
 	</div>
-	<div id="store_box1">
-		<p class="sp3">APP으로 간편하게 주문하기</p>
-		<ul class="order">
-			<a href="#"><li><img src="images/baemin.png" alt=""></li></a>
-			<a href="#"><li><img src="images/yogiyo.png" alt=""></li></a>
-			<img class="del" src="images/delivery.png" alt="#">
-			<div class="del_box"></div>
-		</ul>
+	<div id="store_box3">
+		<p class="st1">APP으로 간편하게 주문하기</p>
+		<a class="d1" href=""><img src="images/baemin.png" alt=""></a>
+		<a class="d2" href=""><img src="images/yogiyo.png" alt=""></a>
+		<img class="d3" src="images/delivery.png" alt="">
 	</div>
-	
+</div>
+<div id="store_box2">
+	<a href="#"><h2><img src="images/navi_small.png" alt=""></h2></a>
+</div>
 	</div>
 </div><!--store e-->
 <div id="footer_wrap"><!--footer s-->
@@ -186,5 +190,4 @@
 	</div>
 </div>
 	</body>
-
 </html>
