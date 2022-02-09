@@ -18,6 +18,7 @@ body{
 	font-size:13px;
 	color:#000;
 	line-height:23px;
+	min-width: 1320px;
 }
 #header_wrap{
 	height: 160px;
@@ -132,33 +133,42 @@ body{
 #main_menu li{
 	float: left;
 	text-align: center;
-	width: 25%;
+	width: 300px;
+	height: 300px;
 	font-size: 17px;
+	padding-left: 30px;
 }
 #main_menu li a{
 	color: #cc853e;
 }
-.sa1{
-	width: 300px;
-	height: 300px;
-	position: absolute;
-	top: 100px;
-	left: -10px;
-	border-radius: 50%;
-	box-shadow: #7dc242 -6px -6px;
-	box-sizing: border-box;
-	z-index: -1;
+
+.ma1 .sb:hover{
+	transform: translate(10px,10px);
+	transition: transform 1s ;
 }
-.sa2{
+.ma2 .sb:hover{
+	transform: translate(10px,10px);
+	transition: transform 1s ;
+}
+.ma3 .sb:hover{
+	transform: translate(10px,10px);
+	transition: transform 1s ;
+}
+.ma4 .sb:hover{
+	transform: translate(10px,10px);
+	transition: transform 1s ;
+}
+.sb{
 	width: 300px;
 	height: 300px;
-	position: absolute;
-	top: 100px;
-	left: 350px;
 	border-radius: 50%;
-	box-shadow: #7dc242 -6px -6px;
-	box-sizing: border-box;
-	z-index: -1;
+	background-color: white;
+}
+.sa1{
+	width: 100%;
+	height: 100%;
+	background-color: #7dc242;
+	border-radius: 50%;
 }
 .more{
 	position: absolute;
@@ -171,12 +181,14 @@ body{
 	left: 635px;
 }
 #bannar2{
-	margin: 0 auto;
-	width: 1920px;
 	height: 390px;
 	background-image: url(../images/mobile.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+}
+#bannar_box{
+	margin: 0 auto;
+	width: 1320px;
 	position: relative;
 }
 .mobile_box1{
@@ -186,12 +198,12 @@ background-color: #2d6525;
 border-radius: 10px 10px;
 position: absolute;
 top: 240px;
-left: 1000px;
+left: 710px;
 }
 .mp1{
 	position: absolute;
 	top: 258px;
-	left: 1025px;
+	left: 735px;
 	font-family: 'SBAggroL';
 	font-size: 20px;
 	color: white;
@@ -203,12 +215,12 @@ left: 1000px;
 	border-radius: 10px 10px;
 	position: absolute;
 	top: 240px;
-	left: 1200px;
+	left: 905px;
 	}
 .mp2{
 	position: absolute;
 	top: 258px;
-	left: 1225px;
+	left: 931px;
 	font-family: 'SBAggroL';
 	font-size: 20px;
 	color: white;
@@ -272,15 +284,49 @@ left: 1000px;
 	width: 1320px;
 	margin: 0 auto;
 }
-.store_navi{
+#store_box_wrap{
 	width: 600px;
-	height: 320px;
+	height: 530px;
+	float: left;
+}
+#store_box1{
+	width: 600px;
+	height: 300px;
 	position: relative;
+}
+#store_box3{
+	width: 600px;
+	height: 230px;
+	position: relative;
+}
+.st1{
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	top: 60px;
+	left: 40px;
+}
+.d1{
+	position: absolute;
+	top: 110px;
+	left: 40px;
+}
+.d2{
+	position: absolute;
+	top: 110px;
+	left: 140px;
+}
+.d3{
+	position: absolute;
+	top: 55px;
+	left: 285px;
+	border: 1px solid #000;
+	box-shadow: 7px 7px #3badb3;
 }
 .sp1{
 	font-size: 22px;
 	font-weight: bold;
-	padding: 90px 0 34px 290px;
+	padding: 30px 0 34px 290px;
 
 }
 .sp2{
@@ -288,7 +334,7 @@ left: 1000px;
 	padding-left: 238px;
 }
 .navi{
-	padding: 45px 0 0 170px;
+	padding: 20px 0 0 170px;
 }
 .button{
 	position: absolute;
@@ -299,7 +345,7 @@ left: 1000px;
 	border-bottom: 4px solid #7dc242;
 	width: 300px;
 	position: absolute;
-	top: 260px;
+	top: 175px;
 	left: 170px;
 }
 input{
@@ -309,42 +355,16 @@ input{
 	border: none;
 	margin-left: 64px;
 }
-#store_box1{
-	width: 600px;
-	height: 220px;
-	position: relative;
-}
-.sp3{
-	font-size: 17px;
-	padding: 60px 0 0 30px;
-}
-.order li{
-	float: left;
-	padding: 20px 10px 0 20px;
-}
-.del{
-	position: absolute;
-	top: 20px;
-	left: 280px;
-	border: 1.5px solid black;
-	z-index: 1;
-}
-.del_box{
-	width: 303px;
-	height: 173px;
-	background-color: #3badb3;
-	position: absolute;
-	top: 34px;
-	left: 294px;
-}
+
 #store_box2{
 	width: 600px;
 	height: 530px;
-	float: right;
+	float: left;
 	background-image: url(../images/map.png);
 	background-repeat: no-repeat;
 	background-position: center left;
 	position: relative;
+	margin-left: 100px;
 }
 #store_box2 img{
 	position: absolute;
