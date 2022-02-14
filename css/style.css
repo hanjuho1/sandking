@@ -28,6 +28,7 @@ body{
 	width: 1320px;
 	margin: 0 auto;
 	position: relative;
+	text-align: center;
 }
 #header h1{
 	text-align: center;
@@ -46,64 +47,81 @@ body{
 	float: left;
 	padding-left: 25px;
 }
-.gnb1> li >a{
+.gnb{
+	display: inline-block;
+}
+.gnb> li >a{
 	font-size: 16px;
   color:#754c28;
 	font-family: 'paybooc-Medium';
 	font-weight: 900;
 	float: left;
-	text-align: center;
-	padding: 85px 250px 0 30px;
+	padding: 80px 85px 0px;
 	letter-spacing: 1.4px;
 	display: block;
 }
-.gnb1> li{
+.gnb> li{
 	float: left;
-	position: relative;
+
 }
-.submenu{
-	display: none;
-	position: absolute;
-	top: 100px;
-	left: 32px;
+.gnb> li:nth-child(3){
+	width: 300px;
+	visibility: hidden;/*안보이게한다_공간인지함*/
 }
-.gnb1 li:hover .submenu{
+.gnb> li:hover> .submenu{
 	display: block;
+}
+.gnb a:hover{
+	color: #7cc242;
+}
+.submenu_wrap{
+	position: absolute;
+	top: 160px;
+	left: 0;
+	width: 100%;
+	border-top: 2px solid #754c28;
+	border-bottom: 2px solid #754c28;
+	z-index: 99;
+	background-color: white;
 }
 .submenu li a{
 	display: block;
+	padding: 8px 0 10px;
 	font-size: 14px;
-	color: #754c28;
 	font-family: 'paybooc-Medium';
+	color: #754c28;
+	font-weight: bold;
 }
 .submenu li a:hover{
-	background-color: white;
-	color: #7dc242;
+	color: #7cc242;
 	font-family: 'paybooc-Medium';
 }
-.gnb2> li >a{
-	font-size: 16px;
-  color:#754c28;
-	font-family: 'paybooc-Medium';
-	font-weight: 900;
-	float: right;
+.submenu{
+	width: 1320px;
+	height: 230px;
+	margin: 0 auto;
+}
+.submenu ul{
 	text-align: center;
-	padding: 85px 150px 0 30px;
-	letter-spacing: 1.4px;
-	display: block;
+	float: left;
 }
-.gnb2 >li{
-	float: right;
-	position: relative;
+.submenu ul:nth-child(1){
+	padding-left: 131px;
 }
-.gnb2 li:hover .submenu{
-	display: block;
+.submenu ul:nth-child(2){
+	padding-left: 178px;
 }
-.gnb1 a:hover{
-	color: #7dc242;
+.submenu ul:nth-child(3){
+	padding-left: 300px;
 }
-.gnb2 a:hover{
-	color: #7dc242;
+.submenu ul:nth-child(4){
+	padding-left: 161px;
+}
+.submenu ul:nth-child(5){
+	padding-left: 153px;
+}
+.su1{
+	padding-top: 20px;
 }
 #main1_wrap{
 	width: 1320px;
@@ -159,16 +177,20 @@ body{
 	transition: transform 1s ;
 }
 .sb{
-	width: 300px;
-	height: 300px;
+	width: 304px;
+	height: 304px;
+	position: absolute;
+	left: -2px;
+	top: -2px;
 	border-radius: 50%;
 	background-color: white;
 }
 .sa1{
-	width: 100%;
-	height: 100%;
-	background-color: #7dc242;
+	width: 300px;
+	height: 300px;
+	background-color: #7cc242;
 	border-radius: 50%;
+	position: relative;
 }
 .more{
 	position: absolute;
@@ -342,7 +364,7 @@ left: 710px;
 	left: 260px;
 }
 .search{
-	border-bottom: 4px solid #7dc242;
+	border-bottom: 4px solid #7cc242;
 	width: 300px;
 	position: absolute;
 	top: 175px;
