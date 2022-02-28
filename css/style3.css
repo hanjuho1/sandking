@@ -131,10 +131,12 @@ body{
 	padding-top: 20px;
 }
 #e_bannar{ 
-  width: 1920px;
   height: 450px;
   margin: 0 auto;
   padding-bottom: 120px;
+}
+#e_bannar img{
+	width: 100%;
 }
 #event_wrap{
   width: 1320px;
