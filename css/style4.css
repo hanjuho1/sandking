@@ -126,12 +126,13 @@ body{
 }
 
 #m_bannar{
-  width: 1920px;
 	height: 390px;
   margin: 0 auto;
   padding-bottom: 55px;
 }
-
+#m_bannar img{
+	width: 100%;
+}
 .m_p1{
   text-align: center;
 	font-family: 'paybooc-Medium';
@@ -143,7 +144,6 @@ body{
   padding-top: 30px;
 }
 #contents_wrap{
-  width: 1920px;
   height: 1842px;
   margin: 0 auto;
   margin-top: 30px;
