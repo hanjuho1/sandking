@@ -126,13 +126,12 @@ body{
 }
 
 .g_wrap{
-  width: 1320px;
-  height: 50px;
   margin: 0 auto;
   text-align: center;
 }
 .sub_g{
   display: inline-block;
+  margin-top: 25px;
 }
 .sub_g li{
   float: left;
@@ -143,6 +142,7 @@ body{
 .gg a{
   color: #ee2624;
   border-bottom: 4px #ee2624 solid;
+
 }
 .sub_g li a:hover{
   color: #ee2624;
@@ -156,7 +156,7 @@ body{
 }
 #sa_box{
   width: 1320px;
-  height: 850px;
+  height: 750px;
   margin: 0 auto;
   position: relative;
   padding-bottom: 150px;
