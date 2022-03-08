@@ -131,6 +131,7 @@ body{
 	padding-top: 20px;
 }
 #e_bannar{ 
+  height: 450px;
   margin: 0 auto;
   padding-bottom: 120px;
 }
@@ -163,6 +164,7 @@ span{
   float: left;
   padding: 30px 30px 0 0;
   font-size: 16px;
+	font-weight: bold;
 }
 .e_link li a{
 	float: left;
@@ -210,7 +212,8 @@ span{
 }
 .t1{
 	margin: 20px 0 0 35px;
-	font-size: 16px;
+	font-size: 15px;
+	font-weight: 500;
 	line-height: 30px;
 	display: inline-block;
 }
@@ -218,11 +221,13 @@ span{
 	text-align: right;
 	padding: 30px 20px 0 0;
 	font-size: 15px;
+	font-weight: 500;
 }
 .t3{
 	text-align: right;
 	padding: 0px 20px 0 0;
 	font-size: 15px;
+	font-weight: 500;
 }
 .t4{
 	margin: 20px 0 0 110px;
